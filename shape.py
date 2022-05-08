@@ -6,7 +6,7 @@ class Shape(abc.ABC):
     def __init__(self, name):
         self.name = name
 
-    @abc.abstractmethode
+    @abc.abstractmethod
     def calculate_area(self):
         pass
 
